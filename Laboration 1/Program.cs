@@ -61,7 +61,7 @@ void MarkeraSekvenser(string input)
                         {
                             if (k >= i && k <= j) // Om positionen är inom den matchade sekvensen
                             {
-                                Console.ForegroundColor = ConsoleColor.DarkGreen; // Färgen på den markerade sekvensen
+                                Console.ForegroundColor = ConsoleColor.Blue; // Färgen på den markerade sekvensen
                             }
                             else
                             {
